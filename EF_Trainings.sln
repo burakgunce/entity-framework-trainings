@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqApp", "LinqApp\LinqApp.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinQueryMethods", "LinQueryMethods\LinQueryMethods.csproj", "{BD09683F-4708-461A-BF1A-09874D8F1D85}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wfaEmployeeProject", "wfaEmployeeProject\wfaEmployeeProject.csproj", "{DB6061DC-B7E5-48D6-B5FE-B8B920441CD9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{BD09683F-4708-461A-BF1A-09874D8F1D85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD09683F-4708-461A-BF1A-09874D8F1D85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD09683F-4708-461A-BF1A-09874D8F1D85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB6061DC-B7E5-48D6-B5FE-B8B920441CD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB6061DC-B7E5-48D6-B5FE-B8B920441CD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB6061DC-B7E5-48D6-B5FE-B8B920441CD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB6061DC-B7E5-48D6-B5FE-B8B920441CD9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
