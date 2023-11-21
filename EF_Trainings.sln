@@ -13,11 +13,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinQueryMethods", "LinQuery
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wfaEmployeeProject", "wfaEmployeeProject\wfaEmployeeProject.csproj", "{DB6061DC-B7E5-48D6-B5FE-B8B920441CD9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbContextDbSet", "DbContextDbSet\DbContextDbSet.csproj", "{52BBC18C-B5B4-4C77-8184-EB05A79E7B7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DbContextDbSet", "DbContextDbSet\DbContextDbSet.csproj", "{52BBC18C-B5B4-4C77-8184-EB05A79E7B7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RelationsEFCore", "RelationsEFCore\RelationsEFCore.csproj", "{CF4DAFB3-BA32-4B2B-BE55-D8FE9BA67AD0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RelationsEFCore", "RelationsEFCore\RelationsEFCore.csproj", "{CF4DAFB3-BA32-4B2B-BE55-D8FE9BA67AD0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManyToManyEfCore", "ManyToManyEfCore\ManyToManyEfCore.csproj", "{64ED4DDE-2458-492D-94B2-5ACBAA622794}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManyToManyEfCore", "ManyToManyEfCore\ManyToManyEfCore.csproj", "{64ED4DDE-2458-492D-94B2-5ACBAA622794}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeFirstPlane", "CodeFirstPlane\CodeFirstPlane.csproj", "{87AC795D-42C7-4AB5-BD53-EDB1F27BAA07}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAnatotaionsAndFluentApi", "DataAnatotaionsAndFluentApi\DataAnatotaionsAndFluentApi.csproj", "{AF4835B8-3668-4E80-B1BE-C9B4F71989B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HayvanBakimiDataAnnotation", "HayvanBakimiDataAnnotation\HayvanBakimiDataAnnotation.csproj", "{91F7F14A-A0A0-4F05-A395-E1319041CACE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +63,18 @@ Global
 		{64ED4DDE-2458-492D-94B2-5ACBAA622794}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64ED4DDE-2458-492D-94B2-5ACBAA622794}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64ED4DDE-2458-492D-94B2-5ACBAA622794}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87AC795D-42C7-4AB5-BD53-EDB1F27BAA07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87AC795D-42C7-4AB5-BD53-EDB1F27BAA07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87AC795D-42C7-4AB5-BD53-EDB1F27BAA07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87AC795D-42C7-4AB5-BD53-EDB1F27BAA07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF4835B8-3668-4E80-B1BE-C9B4F71989B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF4835B8-3668-4E80-B1BE-C9B4F71989B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF4835B8-3668-4E80-B1BE-C9B4F71989B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF4835B8-3668-4E80-B1BE-C9B4F71989B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91F7F14A-A0A0-4F05-A395-E1319041CACE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91F7F14A-A0A0-4F05-A395-E1319041CACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91F7F14A-A0A0-4F05-A395-E1319041CACE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91F7F14A-A0A0-4F05-A395-E1319041CACE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
