@@ -88,6 +88,74 @@
             #endregion
 
             #endregion
+
+            #region Configurations | Fluent API
+
+            #region Composite Key
+            //Tablolarda birden fazla kolonu kümülatif olarak primary key yapmak istiyorsak buna composite key denir.
+            #endregion
+
+            #region HasDefaultSchema
+            //EF Core üzerinden inşa edilen herhangi bir veritabanı nesnesi default olarak dbo şemasına sahiptir. Bunu özelleştirebilmek için kullanılan bir yapılandırmadır.
+            #endregion
+
+            #region Property
+
+            #region HasDefaultValue
+            //Tablodaki herhangi bir kolonun değer gönderilmediği durumlarda default olarak hangi değeri alacağını belirler.
+            #endregion
+
+            #region HasDefaultValueSql
+            //Tablodaki herhangi bir kolonun değer gönderilmediği durumlarda default olarak hangi sql cümleciğinden değeri alacağını belirler.
+            #endregion
+
+            #endregion
+
+            #region HasComputedColumnSql
+            //Tablolarda birden fazla kolondaki veirleri işleyerek değerini oluşturan kolonlara Computed Column denmektedir. EF Core üzerinden bu tarz computed column oluşturabilmek için kullanıolan bir yapılandırmadır.
+            #endregion
+
+            #region HasConstraintName
+            //EF Core üzerinden oluşturulkan constraint'lere default isim yerine özelleştirilmiş bir isim verebilmek için kullanılan yapılandırmadır.
+            #endregion
+
+            #region HasData
+            //Sonraki derslerimizde Seed Data isimli bir konuyu incleyeceğiz. Bu konuda migrate sürecinde veritabanını inşa ederken bir yandan da yazılım üzerinden hazır veriler oluşturmak istiyorsak eğer buunun yöntemini usulünü inceliyor olacağız.
+            //İşte HasData konfigürasyonu bu operasyonun yapılandırma ayağıdır.
+            //HasData ile migrate sürecinde oluşturulacak olan verilerin pk olan id kolonlarına iradeli bir şekilde değerlerin girilmesi zorunludur!
+            #endregion
+
+            #region HasDiscriminator
+            //İleride entityler arasında kalıtımsal ilişkilerin olduğu TPT ve TPH isminde konuları inceliyor olacağız. İşte bu konularla ilgili yapılandırmalarımız HasDiscriminator ve HasValue fonksiyonlarıdır.
+
+            #region HasValue
+
+            #endregion
+
+            #endregion
+
+            #region HasField
+            //Backing Field özelliğini kullanmamızı sağlayan bir yapılandırmadır.
+            #endregion
+
+            #region HasNoKey
+            //Normal şartlarda EF Core'da tüm entitylerin bir PK kolonu olmak zorundadır. Eğer ki entity'de pk kolonu olmayacaksa bunun bildirilmesi gerekmektedir! İşte bunun için kullanuılan fonksiyondur.
+            #endregion
+
+            #region HasIndex
+            //Sonraki derslerimizde EF Core üzerinden Index yapılanmasını detaylıca inceliyor olacağız.
+            //Bu ypılanmaya dair konfigürasyonlarımız HasIndex ve Index attribute'dur.
+            #endregion
+
+            #region HasQueryFilter
+            //İleride göreceğimiz Global QUery Filter başlıklı dersimizin yapılandırmasıdır.
+            //Temeldeki görevi bir entitye karşılık uygulama bazında global bir filtre koymaktır.
+            #endregion
+
+            #region DatabaseGenerated - ValueGeneratedOnAddOrUpdate, ValueGeneratedOnAdd, ValueGeneratedNever
+
+            #endregion
+            #endregion
         }
     }
 }
