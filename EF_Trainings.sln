@@ -29,7 +29,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EducationDbFluApi", "Educat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadingSampleWnetFra", "LoadingSampleWnetFra\LoadingSampleWnetFra.csproj", "{FA13FE52-12D9-4874-BAAD-E4DFA5A818E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ef_Configuration_Notes", "Ef_Notes\Ef_Configuration_Notes.csproj", "{E1F4A6EB-6C5B-4DF5-9D49-E572E6BE2199}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ef_Configuration_Notes", "Ef_Notes\Ef_Configuration_Notes.csproj", "{E1F4A6EB-6C5B-4DF5-9D49-E572E6BE2199}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance_Table_Per_Hierarchy", "Inheritance_Table_Per_Hierarchy\Inheritance_Table_Per_Hierarchy.csproj", "{CB67AE9E-EC28-4E54-908F-01EB63C089BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{E1F4A6EB-6C5B-4DF5-9D49-E572E6BE2199}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1F4A6EB-6C5B-4DF5-9D49-E572E6BE2199}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1F4A6EB-6C5B-4DF5-9D49-E572E6BE2199}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB67AE9E-EC28-4E54-908F-01EB63C089BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB67AE9E-EC28-4E54-908F-01EB63C089BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB67AE9E-EC28-4E54-908F-01EB63C089BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB67AE9E-EC28-4E54-908F-01EB63C089BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
